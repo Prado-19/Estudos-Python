@@ -1,0 +1,8 @@
+valorDigitadoPeloUsuario = input('Digite algo: ')
+print('Só tem espaços {}'.format(valorDigitadoPeloUsuario.isspace()))
+print('É um número? {}'.format(valorDigitadoPeloUsuario.isnumeric()))
+print('É um alfabético? {}'.format(valorDigitadoPeloUsuario.isalpha()))
+print('É um alfanumérico? {}'.format(valorDigitadoPeloUsuario.isalnum()))
+print('Está em maiúsculas? {}'.format(valorDigitadoPeloUsuario.isupper()))
+print('Está em minúscula? {}'.format(valorDigitadoPeloUsuario.islower()))
+print('Está capitalizada? {}'.format(valorDigitadoPeloUsuario.istitle()))
